@@ -1,0 +1,274 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 696
+  ClientWidth = 336
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Color = xFF131217
+    Size.Width = 336.000000000000000000
+    Size.Height = 636.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Rectangle2: TRectangle
+      Align = Top
+      Fill.Color = xFF2D2D35
+      Size.Width = 336.000000000000000000
+      Size.Height = 225.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 30.000000000000000000
+      YRadius = 30.000000000000000000
+      object Circle1: TCircle
+        Fill.Color = xFF52006B
+        Position.X = 24.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Circle2: TCircle
+        Fill.Color = xFF52006B
+        Position.X = 272.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object Rectangle3: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 104.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 121.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        object Label1: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          Size.Width = 81.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'M'#202'S'
+          TabOrder = 0
+        end
+      end
+      object Rectangle4: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 104.000000000000000000
+        Position.Y = 41.000000000000000000
+        Size.Width = 121.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        object Label2: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          Size.Width = 109.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = xFF8F8F8F
+          TextSettings.HorzAlign = Center
+          Text = 'Saldo em contas'
+          TabOrder = 0
+        end
+      end
+      object Rectangle5: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 84.000000000000000000
+        Position.Y = 69.000000000000000000
+        Size.Width = 160.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        object Label3: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          Size.Width = 135.000000000000000000
+          Size.Height = 27.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 30.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'R$000,00'
+          TabOrder = 0
+        end
+      end
+      object Circle3: TCircle
+        Fill.Color = xFF03E717
+        Position.X = 24.000000000000000000
+        Position.Y = 162.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Label8: TLabel
+          Align = Center
+          StyledSettings = []
+          Size.Width = 25.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Segoe MDL2 Assets'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = #59544
+          TabOrder = 1
+        end
+      end
+      object Circle4: TCircle
+        Fill.Color = xFFFF3131
+        Position.X = 256.000000000000000000
+        Position.Y = 162.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Label9: TLabel
+          Align = Center
+          StyledSettings = []
+          Size.Width = 25.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Segoe MDL2 Assets'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = #59542
+          TabOrder = 1
+        end
+      end
+      object Rectangle6: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 152.000000000000000000
+        Position.Y = 113.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle7: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 73.000000000000000000
+        Position.Y = 181.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label4: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          Size.Width = 70.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = xFF03E717
+          TextSettings.HorzAlign = Center
+          Text = 'R$000,00'
+          TabOrder = 0
+        end
+      end
+      object Rectangle8: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 176.000000000000000000
+        Position.Y = 181.000000000000000000
+        Size.Width = 79.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label5: TLabel
+          Align = Center
+          StyledSettings = [Family]
+          Size.Width = 58.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = xFFFF3131
+          TextSettings.HorzAlign = Center
+          Text = 'R$000,00'
+          TabOrder = 0
+        end
+      end
+      object Label6: TLabel
+        StyledSettings = [Family]
+        Position.X = 84.000000000000000000
+        Position.Y = 158.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = xFF8F8F8F
+        Text = 'Receitas'
+        TabOrder = 1
+      end
+      object Label7: TLabel
+        StyledSettings = [Family]
+        Position.X = 186.000000000000000000
+        Position.Y = 158.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = xFF8F8F8F
+        Text = 'Despesas'
+        TabOrder = 0
+      end
+    end
+    object Rectangle9: TRectangle
+      Align = Top
+      Fill.Color = xFF2D2D35
+      Position.Y = 280.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 30.000000000000000000
+      YRadius = 30.000000000000000000
+      object Rectangle11: TRectangle
+        Align = Top
+        Fill.Color = xFF2D2D35
+        Size.Width = 336.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        XRadius = 18.500000000000000000
+        YRadius = 18.500000000000000000
+      end
+      object Rectangle12: TRectangle
+        Align = Top
+        Fill.Color = xFF2D2D35
+        Position.Y = 57.000000000000000000
+        Size.Width = 336.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        XRadius = 18.500000000000000000
+        YRadius = 18.500000000000000000
+      end
+    end
+    object Rectangle10: TRectangle
+      Align = Top
+      Fill.Color = xFF131217
+      Position.Y = 225.000000000000000000
+      Size.Width = 336.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      object Label10: TLabel
+        StyledSettings = [Family]
+        Position.X = 24.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = xFF8F8F8F
+        Text = 'Contas'
+        TabOrder = 1
+      end
+    end
+  end
+end

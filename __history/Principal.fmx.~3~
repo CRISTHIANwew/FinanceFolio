@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 584
+  ClientWidth = 336
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF131217
+    Size.Width = 336.000000000000000000
+    Size.Height = 584.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Rectangle2: TRectangle
+      Align = Top
+      Fill.Color = xFF2D2D35
+      Size.Width = 336.000000000000000000
+      Size.Height = 148.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 50.000000000000000000
+      YRadius = 50.000000000000000000
+      object Circle1: TCircle
+        Position.X = 24.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Circle2: TCircle
+        Position.X = 272.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle3: TRectangle
+        Fill.Color = xFF2D2D35
+        Position.X = 104.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 121.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end
